@@ -1,0 +1,50 @@
+.playground{
+  width: 1050px;
+  margin: 50px auto;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.playground: after {
+  display: block;
+  content: '';
+  height: 0;
+  clear: both;
+}
+
+.dot,
+.light-dot {
+  width: 20px;
+  height: 20px;
+  border-left: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  float: left;
+}
+
+.dot {
+  background: #eee;
+}
+
+.light-dot {
+  background: green;
+}
+
+.snake_init{
+  background: #000;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.snake{
+   position: absolute;
+   top: 60px;
+   left: 200px;
+}
+
+.food{
+  width: 20px;
+  height: 20px;
+  background: black;
+  position: absolute;
+}
