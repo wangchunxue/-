@@ -1,0 +1,69 @@
+.playground{
+  width: 1050px;
+  margin: 50px auto;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.playground:after {
+  display: block;
+  content: '';
+  height: 0;
+  clear: both;
+}
+
+.dot,
+.light-dot {
+  width: 20px;
+  height: 20px;
+  border-left: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  float: left;
+}
+
+.dot {
+  background: #eee;
+}
+
+.light-dot {
+  background: green;
+}
+
+.snake_init{
+  background: #000;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.snake{
+   position: absolute;
+   top: 60px;
+   left: 200px;
+}
+
+.food{
+  width: 20px;
+  height: 20px;
+  background: black;
+  position: absolute;
+}
+
+.status{
+  width: 1050px;
+  height: 20px;
+  margin: 50px auto;
+}
+
+.status .move{
+  float: right;
+  margin-left: 40px;
+  background: yellowgreen;
+  color: #eee;
+  width: 60px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
